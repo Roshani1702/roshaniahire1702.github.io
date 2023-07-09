@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshani Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            background-color: rgb(0,0,32);
+            color:white;
+        }
+
+        nav{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height:80px;
+            background-color: rgb(15, 72, 59);
+        }
+
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            font-size: 25px;
+            list-style: none;
+            margin: 0 40px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(26, 171, 171);
+            font-size: 1.5rem;
+
+        }
+        main hr{
+            border:0;
+            background:rgb(7, 122, 111);
+            height:1.2px;
+            margin:40px 84px;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        .firstSection .btn{
+            padding:12px;
+            background: rgb(0, 134, 116);
+            color:white;
+            border:2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .firstSection{
+                display:flex;
+                justify-content: space-around;
+                margin: 100px 0;
+                align-items: center;
+
+        }
+        .firstSection >div{
+                width:30%
+        }
+        .leftSection{
+          
+            width:34px;
+            font-size: 3rem;
+            margin: 70px;
+
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .rightSection img{
+           width:60%;
+           margin:50px 0;
+        }
+        .purple{
+            color: rgb(63, 198, 189);
+        }
+        .text-grey{
+            color:gray;
+            font-size: 30px;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh;
+
+        }
+       
+        .secondSection h1{
+            font-size: 2.5rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height:3px;
+            margin:56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 2px;
+            background-color: white;
+           
+            margin: 0 100px;
+        }
+
+        .image-top{
+            width:23px;
+            position:relative;
+            top: -32px;
+            left:-9px;
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 120px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position:relative;
+            top: 85px;
+            color: rgb(9, 231, 197);
+            width: 300px;
+            font-size: 18px;
+            margin-top: 130px;
+        }
+        .centerdiv i{
+            background-color: rgb(240, 245, 245);
+            font-size: 30px;
+            width:50px;
+            height:50px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 50px;
+            color:rgb(13, 29, 72);
+            margin: 15px;
+        
+            
+        }
+       a i{
+        transition: all 0.3s linear;
+
+       }
+       
+       a:hoveri{
+        transform: scale(1.4);
+       }
+
+    
+       .fa-telegram{
+        color: blue;
+       }
+       .fa-youtube{
+        color:red;
+       }
+       .fa-linkedin-in{
+        color: blue;
+       }
+       .fa-github{
+        color:black
+       }
+              
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Roshani's Portfolio</div>
+            <div right="right">
+                <ul>
+                     <li><a href="#">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    
+                    <li> <a href="project.html">Projects</a></li>
+                    <li> <a href="contact.html">Contact Me</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, my name is <span class="purple">Roshani Ahire</span>
+                <div>and I am passionate </div>
+                <div> Web Developer</div>
+                <div class="buttons">
+                    <button class="btn">
+                        <a href="Roshani_Ahire.pdf"><h2><p style="color: white;">Download Resume</p></h2></a>
+                    </button>
+                    <button class="btn">
+                        <a href=" https://github.com/Roshani1702"><h2><p style="color: white;"> Github</p></h2></a>
+                    </button>
+                </div>
+               
+                <div class="centerdiv">
+                    <a href="https://t.me/roshani_ahire1702">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                
+                    <a href="https://youtube.com/@trickycode2950 ">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                
+                    <a href="https://www.linkedin.com/in/roshani-ahire-90b099281">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href=" https://github.com/Roshani1702">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+
+
+                
+            </div>
+            <div class="rightSection">
+                <img src="rosh2.jpg" alt="";>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">My journy from 10th </span>
+            <h1>Journy</h1>
+            
+
+           <div class="box">
+            <div class="vertical">
+                <div class="vertical-title">
+                    Jijamata Girls HighSchool,Satana, Dis-Nashik
+                </div>
+                 
+                <div class="vertical-desc">
+                    Percentage= 93 %
+                </div>
+                <div>10th(2019-2020)</div>
+            </div>
+
+
+            <div class="vertical">
+                <div class="vertical-title">
+                    Shikshan Maharshi Dadasaheb Rawal Government Polytechnic, Dhule
+                </div>
+                 
+                <div class="vertical-desc">
+                    1st Semester= 90 %
+                </div>
+                <div class="vertical-title">Diploma</div>
+               
+            </div> 
+            
+            <div class="vertical">
+                <div class="vertical-title">
+                    SEMESTER 2nd
+                </div>
+                 
+                <div class="vertical-desc">
+                    2nd Semester= 85.63 %
+                </div>
+                <div class="vertical-title"><ul><li>Programming in 'C'</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>Web Page design using HTML</li></ul></div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    SEMESTER 3rd
+                </div>
+                 
+                <div class="vertical-desc">
+                    3rd Semester= 92.13 %
+                </div>
+                <div class="vertical-title"><ul><li>OOP using C++</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>Data Structure Using C</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>DBMS</li></ul></div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    SEMESTER 4th
+                </div>
+                 
+                <div class="vertical-desc">
+                    4th Semester= 78.53 %
+                </div>
+                <div class="vertical-title"><ul><li>Java Programming</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>Software Engineeringg</li></ul></div>
+                <br>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    SEMESTER 5tH
+                </div>
+                 
+                <div class="vertical-desc">
+                    5th Semester= 85.56 %
+                </div>
+                <div class="vertical-title"><ul><li>Advance Java Programming</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>Client Side Scripting</li></ul></div>
+                <br>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    SEMESTER 6th
+                </div>
+                 
+                <div class="vertical-desc">
+                    6th Semester= Result not declared
+                </div>
+                <div class="vertical-title"><ul><li>Programming with Python</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>Mobile Application Development</li></ul></div>
+                <br>
+                <div class="vertical-title"><ul><li>PHP</li></ul></div>
+                <br>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    <h1>Degree</h1>
+                </div>
+                 
+            </div>
+            </div>
+            
+           </div>
+
+        
+        </section>
+
+        
+      <!--  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+         <!-- Setup and start animation!
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script> -->
+
+   
+       
+    </main>
+</body>
+</html>
